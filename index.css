@@ -1,11 +1,10 @@
 body {
-    margin: 0;
-    padding: 2rem 0;
-    width: 91rem;
-    background: #5edd5f;
+    background-color: #5edd5f;
     font-family: 'Tangerine', monospace;
     text-align: center;
-    color: #B57170;
+    margin: 0;
+    padding: 2rem 0;
+    width : 100%;
 }
 main {
     background: white;
@@ -17,3 +16,14 @@ main {
   h1 {
     margin: 3rem 1rem 6rem 1rem;
   }
+  .artObject {
+    max-width: 80%;
+    max-height: 20rem;
+    margin: 1rem;
+}
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
