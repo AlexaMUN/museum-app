@@ -3,7 +3,17 @@ body {
     padding: 2rem 0;
     width: 91rem;
     background: #5edd5f;
-    font-family: 'Droid', monospace;
+    font-family: 'Tangerine', monospace;
     text-align: center;
     color: #B57170;
 }
+main {
+    background: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+  }
+  h1 {
+    margin: 3rem 1rem 6rem 1rem;
+  }
