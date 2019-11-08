@@ -17,7 +17,7 @@ function submitComment() {
     var h3 = document.createElement("h3");
     var p = document.createElement("p");
   
-    capitalize(name);
+    name = capitalize(name);
     h3.innerHTML = `${name} said:`;
     p.innerHTML = msg;
     
